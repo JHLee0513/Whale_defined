@@ -1,2 +1,2 @@
-# Whale_me_tell_you
+# Whale_defined
 Kaggle: Humpback Whale Challenge
