@@ -1,11 +1,15 @@
 # Whale_defined
-Kaggle: Humpback Whale Challenge
+## Can you identify a whale by its tail?
 
-Humpack_whale_challenge.ipynb - 2017 competition solution
-....ipynb - 2018 competition solution. Performs much better than previous year, utilizes new siamese approach
+"To aid whale conservation efforts, scientists use photo surveillance systems to monitor ocean activity. They use the shape of whales’ tails and unique markings found in footage to identify what species of whale they’re analyzing and meticulously log whale pod dynamics and movements. For the past 40 years, most of this work has been done manually by individual scientists, leaving a huge trove of data untapped and underutilized.
+
+In this competition, you’re challenged to build an algorithm to identify individual whales in images. You’ll analyze Happywhale’s database of over 25,000 images, gathered from research institutions and public contributors. By contributing, you’ll help to open rich fields of understanding for marine mammal population dynamics around the globe." -- Kaggle competition description
 
 
-## The 2018 solution document
+# My 2018 solution document
+TODO
+1. implement top K solutions
+
 This solution approach is guided by https://www.kaggle.com/martinpiotte/whale-recognition-model-with-score-0-78563. For details check out the link. 
 
 This solution is derived from Siamese Neural Networks, with a few modifications. Each training epoch is composed of a sequence of image pairs (A,B) such that
